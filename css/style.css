@@ -40,13 +40,13 @@ section {
   margin: 0%;
   padding: 0%;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
   -webkit-clip-path: polygon(50% 0, 100% 12%, 100% 100%, 0 100%, 0 12%);
   clip-path: polygon(50% 0, 100% 12%, 100% 100%, 0 100%, 0 12%);
 }
 
 .second-block{
-  background-color: #8BC34A;
+  background-color: #9CCC65;
   padding: 3em;
   border-radius: 60px 10px 120px 10px;
   min-height: calc(65vh);
@@ -86,7 +86,6 @@ section {
   grid-area: skill_img;
   font-size: 4.2em;
   text-align: center;
-  width: 1em;
   max-width: 10%;
 }
 
@@ -103,6 +102,7 @@ section {
 
 .skill_list ul{
   list-style: none;
+  font-weight: 600;
 }
 
 
@@ -385,6 +385,18 @@ Phones - 600
     font-family: 'Kodchasan', sans-serif;
   }
 
+  .skill-row{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 0%;
+    grid-gap: 1px 1px;
+    grid-template-areas:
+    "skill_img skill_list"
+  }
+  
+
   section {
     padding: 2em;
     height: calc(100vh);
@@ -663,6 +675,10 @@ Phones - 600
 
   #section3{
     height: calc(150vh);
+  }
+
+  .skill_img {
+    font-size: 3.8em;
   }
 
   .social-item {
