@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: pinho.tk
+Token: 8c0531dcef7b09a390333fcebcdb48ad1f983ace7a5bc6af67d9156a3b7bcd61
