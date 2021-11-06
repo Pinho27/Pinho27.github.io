@@ -9,5 +9,5 @@ $(document).ready(function(){
         }, 2000);
     });
 
-    $('#div-backgroud1').css("background-image", "url(https://source.unsplash.com/" + window.screen.availWidth + "x" + window.screen.availHeight + "/?nature,water,tech)");
+    $('#div-backgroud1').css("background-image", "url(https://source.unsplash.com/user/luispinho" + window.screen.availWidth + "x" + window.screen.availHeight);
 });
